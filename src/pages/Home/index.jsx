@@ -16,7 +16,7 @@ const index = () => {
         recipeList.map((item) => <RecipeItem item={item} key={item.id} />)
       ) : (
         <div className="lg:text-4xl text-xl font-bold text-gray-800 text-center">
-          Recipe Not Found !! Please Try Another Recipe
+          Search Any Recipe
         </div>
       )}
     </div>
